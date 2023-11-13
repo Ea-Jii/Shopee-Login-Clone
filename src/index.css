@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+:root {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+
+  /* Shopee Colors */
+  --orange: rgb(238, 77, 45);
+  --blue: #05a;
+  --grey: rgba(0, 0, 0, 0.26);
+  --dark-rey: rgba(0, 0, 0, 0.438);
+  --yellow: #ffbf00;
+  --black: #222;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+@media (max-width: 1240px) {
+  body {
+    width: 1240px;
+  }
+}
